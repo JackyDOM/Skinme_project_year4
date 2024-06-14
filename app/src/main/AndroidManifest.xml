@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignIn_Screen.MainActivity" />
+        <activity android:name=".SignUp_Screen.SignUpActivity"/>
     </application>
 
 </manifest>
