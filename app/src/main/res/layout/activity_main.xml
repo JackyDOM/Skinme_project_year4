@@ -136,8 +136,6 @@
                 android:layout_height="wrap_content"
                 android:text="Register Name" />
         </LinearLayout>
-
-
         <LinearLayout
             android:gravity="center_horizontal"
             android:orientation="horizontal"

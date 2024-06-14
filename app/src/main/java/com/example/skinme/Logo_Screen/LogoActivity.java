@@ -26,5 +26,4 @@ public class LogoActivity extends AppCompatActivity {
             }
         }, 4000);
     }
-
 }

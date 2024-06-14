@@ -6,4 +6,3 @@
         android:color="#000000" /> <!-- Border color and width -->
     <corners android:radius="16dp" /> <!-- Corner radius -->
 </shape>
-
