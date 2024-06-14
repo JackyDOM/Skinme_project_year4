@@ -1,8 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp_Screen.SignUpActivity">
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".SignUp_Screen.SignUpActivity"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:layout_marginStart="150dp"
+            android:textColor="#067a96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="#0d8abf"
+            android:layout_marginStart="241dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up!"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        
+        <EditText
+            android:paddingLeft="17dp"
+            android:hint="Username"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:background="@drawable/border_edit_text"/>
+
+        <EditText
+            android:paddingLeft="17dp"
+            android:hint="Email Address"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:background="@drawable/border_edit_text"/>
+
+        <EditText
+            android:paddingLeft="17dp"
+            android:hint="Password"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:background="@drawable/border_edit_text"/>
+
+        <EditText
+            android:paddingLeft="17dp"
+            android:hint="Confirm Password"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:background="@drawable/border_edit_text"/>
+
+        <Button
+            android:text="SIGN UP"
+            android:textSize="25sp"
+            android:background="@drawable/btn_border"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="370dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Good skin care is a lifetime commitment.
+            \nGlowing skin is always in.
+    \nBeautiful skin requires commitment, not a miracle."/>
+    </LinearLayout>
+</ScrollView>
