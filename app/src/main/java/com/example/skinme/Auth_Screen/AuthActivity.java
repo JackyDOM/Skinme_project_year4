@@ -30,6 +30,7 @@ public class AuthActivity extends AppCompatActivity {
             }
         });
 
+
         //btnSignUp ClickOnListener
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override

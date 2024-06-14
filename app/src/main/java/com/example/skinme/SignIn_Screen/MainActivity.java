@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     public void GoToSignUp(){
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
