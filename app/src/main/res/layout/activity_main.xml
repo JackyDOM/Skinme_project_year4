@@ -63,6 +63,7 @@
 
         </LinearLayout>
         <Button
+            android:id="@+id/btnSignIn"
             android:textColor="@color/white"
             android:text="SIGN IN"
             android:textSize="23sp"
